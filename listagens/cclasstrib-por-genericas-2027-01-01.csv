@@ -1,0 +1,141 @@
+﻿cClassTrib;CST;Tributo;Descrição;Nomenclatura;Aceita qualquer NCM;Aceita qualquer NBS
+000001;000;CBS/IBS;Situações tributadas integralmente pelo IBS e CBS.;NBS ou NCM;S;S
+000002;000;CBS/IBS;Exploração de via;NBS;N;S
+000003;000;CBS/IBS;Regime automotivo - projetos incentivados (art. 311);NCM;S;N
+000004;000;CBS/IBS;Regime automotivo - projetos incentivados (art. 312);NCM;S;N
+000005;000;CBS/IBS;Operação com EAC destinado à mistura com gasolina A, mas com saída do biocombustível com destinação diversa;NCM;S;N
+010001;010;CBS/IBS;Operações do FGTS não realizadas pela Caixa Econômica Federal;NBS;N;S
+010002;010;CBS/IBS;Operações do serviço financeiro;NBS;N;S
+011001;011;CBS/IBS;Planos de assistência funerária.;NBS;N;S
+011002;011;CBS/IBS;Planos de assistência à saúde;NBS;N;S
+011003;011;CBS/IBS;Intermediação de planos de assistência à saúde;NBS;N;S
+011004;011;CBS/IBS;Concursos e prognósticos;NBS;N;S
+011005;011;CBS/IBS;Planos de assistência à saúde de animais domésticos;NBS;N;S
+200001;200;CBS/IBS;Serviços de transporte de bens até as zonas de processamento de exportação e bens exportados a partir das zonas de processamento de exportação;NBS ou NCM;S;S
+200002;200;CBS/IBS;Fornecimento ou importação para produtor rural não contribuinte ou TAC;NCM;S;N
+200006;200;CBS/IBS;Situação de emergência de saúde pública reconhecida pelo Poder público;NCM;S;N
+200009;200;CBS/IBS;Fornecimento dos medicamentos registrados na Anvisa;NCM;S;N
+200010;200;CBS/IBS;Fornecimento dos medicamentos registrados na Anvisa, adquiridos por órgãos da administração pública;NCM;S;N
+200012;200;CBS/IBS;Situação de emergência de saúde pública reconhecida pelo Poder público;NCM;S;N
+200013;200;CBS/IBS;Fornecimento de tampões higiênicos, absorventes higiênicos internos ou externos;NCM;S;N
+200015;200;CBS/IBS;Venda de automóveis de passageiros de fabricação nacional adquiridos por motoristas profissionais ou pessoas com deficiência;NCM;S;N
+200016;200;CBS/IBS;Prestação de serviços de pesquisa e desenvolvimento por Instituição Científica, Tecnológica e de Inovação (ICT);NBS;N;S
+200017;200;CBS/IBS;Operações relacionadas ao FGTS;NBS;N;S
+200018;200;CBS/IBS;Operações de resseguro e retrocessão;NBS;N;S
+200019;200;CBS/IBS;Importador dos serviços financeiros contribuinte;NBS;N;S
+200020;200;CBS/IBS;Operação praticada por sociedades cooperativas optantes por regime específico do IBS e CBS;NBS ou NCM;S;S
+200021;200;CBS/IBS;Serviços de transporte público coletivo de passageiros ferroviário e hidroviário;NBS;N;S
+200022;200;CBS/IBS;Operação originada fora da ZFM que destine bem material industrializado a contribuinte estabelecido na ZFM;NCM;S;N
+200023;200;CBS/IBS;Operação realizada por indústria incentivada que destine bem material intermediário para outra indústria incentivada na ZFM;NCM;S;N
+200024;200;CBS/IBS;Operação originada fora das Áreas de Livre Comércio destinadas a contribuinte estabelecido nas Áreas de Livre Comércio;NCM;S;N
+200025;200;CBS/IBS;Fornecimento dos serviços de educação relacionados ao Programa Universidade para Todos (Prouni);NBS ou NCM;S;S
+200026;200;CBS/IBS;Locação de imóveis localizados nas zonas reabilitadas;NBS ou NCM;S;S
+200027;200;CBS/IBS;Operações de locação, cessão onerosa e arrendamento de bens imóveis;NBS ou NCM;S;S
+200032;200;CBS/IBS;Fornecimento dos medicamentos registrados na Anvisa ou produzidos por farmácias de manipulação, ressalvados os medicamentos sujeitos à alíquota zero;NCM;S;N
+200036;200;CBS/IBS;Fornecimento de produtos agropecuários, aquícolas, pesqueiros, florestais e extrativistas vegetais in natura;NCM;S;N
+200037;200;CBS/IBS;Fornecimento de serviços ambientais de conservação ou recuperação da vegetação nativa;NBS ou NCM;S;S
+200040;200;CBS/IBS;Fornecimento de serviços de comunicação institucional à administração pública;NBS ou NCM;S;S
+200041;200;CBS/IBS;Fornecimento de serviço de educação desportiva (art. 141. I);NBS ou NCM;S;S
+200042;200;CBS/IBS;Fornecimento de serviço de gestão e exploração do desporto (art. 141. II);NBS ou NCM;S;S
+200045;200;CBS/IBS;Operações relacionadas a projetos de reabilitação urbana de zonas históricas e de áreas críticas de recuperação e reconversão urbanística;NBS ou NCM;S;S
+200046;200;CBS/IBS;Operações com bens imóveis;NBS ou NCM;S;S
+200047;200;CBS/IBS;Bares e Restaurantes;NCM;S;N
+200048;200;CBS/IBS;Hotelaria, Parques de Diversão e Parques Temáticos;NBS ou NCM;S;S
+200049;200;CBS/IBS;Transporte coletivo de passageiros rodoviário, ferroviário e hidroviário;NBS ou NCM;S;S
+200050;200;CBS/IBS;Serviços de transporte aéreo regional coletivo de passageiros ou de carga;NBS ou NCM;S;S
+200051;200;CBS/IBS;Agências de Turismo;NBS ou NCM;S;S
+200052;200;CBS/IBS;Prestação de serviços de profissões intelectuais;NBS ou NCM;S;S
+200053;200;CBS/IBS;Fornecimento de medicamentos registrados na Anvisa, quando  classificados como soros ou vacinas;NCM;S;N
+200054;200;CBS/IBS;Fornecimento de bem material pela cooperativa de produção agropecuária a associado não sujeito ao regime regular do IBS e da CBS;NCM;S;N
+221001;221;CBS/IBS;Locação, cessão onerosa ou arrendamento de bem imóvel com alíquota sobre a receita bruta;NBS ou NCM;S;S
+221002;221;CBS/IBS;Incorporação imobiliária submetida ao regime especial de tributação;NBS ou NCM;S;S
+221003;221;CBS/IBS;Incorporação imobiliária submetida ao regime especial de tributação;NBS ou NCM;S;S
+221004;221;CBS/IBS;Alienação de imóvel decorrente de parcelamento do solo;NBS ou NCM;S;S
+222001;222;CBS/IBS;Transporte internacional de passageiros, caso os trechos de ida e volta sejam vendidos em conjunto;NBS;N;S
+400001;400;CBS/IBS;Fornecimento de serviços de transporte público coletivo de passageiros rodoviário e metroviário;NBS ou NCM;S;S
+400002;400;CBS/IBS;Fornecimento de serviços de transporte público coletivo de passageiros rodoviário e metroviário com medição por quilômetro rodado;NBS ou NCM;S;S
+410001;410;CBS/IBS;Fornecimento de bonificações quando constem no documento fiscal e que não dependam de evento posterior;NBS ou NCM;S;S
+410002;410;CBS/IBS;Transferências entre estabelecimentos pertencentes ao mesmo contribuinte;NCM;S;N
+410003;410;CBS/IBS;Doações sem contraprestação em benefício do doador;NBS ou NCM;S;S
+410004;410;CBS/IBS;Exportações de bens e serviços;NBS ou NCM;S;S
+410005;410;CBS/IBS;Fornecimentos realizados pela União, pelos Estados, pelo Distrito Federal e pelos Municípios;NBS ou NCM;S;S
+410006;410;CBS/IBS;Fornecimentos realizados por entidades religiosas e templos de qualquer culto;NBS ou NCM;S;S
+410007;410;CBS/IBS;Fornecimentos realizados por partidos políticos, entidades sindicais e instituições de educação e de assistência social;NBS ou NCM;S;S
+410008;410;CBS/IBS;Fornecimentos de livros, jornais, periódicos e do papel destinado a sua impressão;NBS ou NCM;S;S
+410009;410;CBS/IBS;Fornecimentos de fonogramas e videofonogramas musicais produzidos no Brasil;NBS ou NCM;S;S
+410010;410;CBS/IBS;Fornecimentos de serviço de comunicação nas modalidades de radiodifusão sonora e de sons e imagens de recepção livre e gratuita;NBS ou NCM;S;S
+410011;410;CBS/IBS;Fornecimentos de ouro, quando definido em lei como ativo financeiro ou instrumento cambial;NCM;S;N
+410012;410;CBS/IBS;Fornecimento de condomínio edilício não optante pelo regime regular;NBS ou NCM;S;S
+410013;410;CBS/IBS;Exportações de combustíveis;NCM;S;N
+410014;410;CBS/IBS;Fornecimento de produtor rural não contribuinte;NBS ou NCM;S;S
+410015;410;CBS/IBS;Fornecimento por transportador autônomo não contribuinte;NBS ou NCM;S;S
+410016;410;CBS/IBS;Fornecimento ou aquisição de resíduos sólidos;NCM;S;N
+410017;410;CBS/IBS;Aquisição de bem móvel com crédito presumido sob condição de revenda realizada;NCM;S;N
+410018;410;CBS/IBS;Operações relacionadas aos fundos garantidores e executores de políticas públicas;NBS ou NCM;S;S
+410019;410;CBS/IBS;Exclusão da gorjeta na base de cálculo no fornecimento de alimentação;NCM;S;N
+410020;410;CBS/IBS;Exclusão do valor de intermediação na base de cálculo no fornecimento de alimentação;NCM;S;N
+410021;410;CBS/IBS;Contribuição de que trata o art. 149-A da Constituição Federal;NCM;S;N
+410022;410;CBS/IBS;Consolidação da propriedade do bem pelo credor;NCM;S;N
+410023;410;CBS/IBS;Alienação de bens móveis ou imóveis que tenham sido objeto de garantia em que o prestador da garantia não seja contribuinte;NCM;S;N
+410024;410;CBS/IBS;Consolidação da propriedade do bem pelo grupo de consórcio;NCM;S;N
+410025;410;CBS/IBS;Alienação de bem que tenha sido objeto de garantia em que o prestador da garantia não seja contribuinte;NCM;S;N
+410026;410;CBS/IBS;Doação com anulação de crédito;NBS ou NCM;S;S
+410027;410;CBS/IBS;Exportação de serviço ou de bem imaterial;NBS;N;S
+410028;410;CBS/IBS;Operações com bens imóveis realizadas por pessoas físicas não consideradas contribuintes;NBS;N;S
+410029;410;CBS/IBS;Operações acobertadas somente pelo ICMS;NCM;S;N
+410030;410;CBS/IBS;Estorno de crédito por perecimento, deteriorização, roubo, furto ou extravio.;NCM;S;N
+410031;410;CBS/IBS;Fornecimento em período anterior ao início de vigência de incidências de CBS e IBS;NCM;S;N
+410032;410;CBS/IBS;Tributos incidentes na operação que não integram a base de cálculo do IBS e da CBS;NBS ou NCM;S;S
+410033;410;CBS/IBS;Operações de Fundos de Investimento Imobiliário (FII) e Fundos de Investimento nas Cadeias Produtivas do Agronegócio (Fiagro);NBS ou NCM;S;S
+410034;410;CBS/IBS;Operações de fundos de investimento;NBS ou NCM;S;S
+410035;410;CBS/IBS;Fornecimento realizado por nanoempreendedor;NBS ou NCM;S;S
+410036;410;CBS/IBS;Descontos incondicionais;NBS ou NCM;S;S
+410037;410;CBS/IBS;Importação os bens materiais sem incidência de IBS e CBS;NBS ou NCM;S;S
+410999;410;CBS/IBS;Operações não onerosas sem previsão de tributação, não especificadas anteriormente;NBS ou NCM;S;S
+510001;510;CBS/IBS;Operações, sujeitas a diferimento, com energia elétrica, relativas à importação, geração, comercialização, distribuição e transmissão;NCM;S;N
+550001;550;CBS/IBS;Exportações de bens materiais;NCM;S;N
+550002;550;CBS/IBS;Regime de Trânsito;NCM;S;N
+550003;550;CBS/IBS;Regimes de Depósito (art. 85);NCM;S;N
+550004;550;CBS/IBS;Regimes de Depósito (art. 87);NCM;S;N
+550005;550;CBS/IBS;Regimes de Depósito (art. 87, Parágrafo único);NCM;S;N
+550006;550;CBS/IBS;Regimes de Permanência Temporária;NCM;S;N
+550007;550;CBS/IBS;Regimes de Aperfeiçoamento;NCM;S;N
+550008;550;CBS/IBS;Importação de bens para o Regime de Repetro-Temporário;NCM;S;N
+550009;550;CBS/IBS;GNL-Temporário;NCM;S;N
+550010;550;CBS/IBS;Repetro-Permanente;NCM;S;N
+550011;550;CBS/IBS;Repetro-Industrialização;NCM;S;N
+550012;550;CBS/IBS;Repetro-Nacional;NCM;S;N
+550013;550;CBS/IBS;Repetro-Entreposto;NCM;S;N
+550014;550;CBS/IBS;Zona de Processamento de Exportação;NCM;S;N
+550015;550;CBS/IBS;Regime Tributário para Incentivo à Modernização e à Ampliação da Estrutura Portuária;NCM;S;N
+550016;550;CBS/IBS;Regime Especial de Incentivos para o Desenvolvimento da Infraestrutura;NBS ou NCM;S;S
+550017;550;CBS/IBS;Regime Tributário para Incentivo à Atividade Naval - Renaval (Art. 107, I);NCM;S;N
+550018;550;CBS/IBS;Desoneração da aquisição de bens de capital;NCM;S;N
+550019;550;CBS/IBS;Importação de bem material por indústria incentivada para utilização na ZFM;NCM;S;N
+550020;550;CBS/IBS;Áreas de livre comércio;NCM;S;N
+550021;550;CBS/IBS;Industrialização destinada a exportações;NCM;S;N
+550022;550;CBS/IBS;Regime Especial de Incentivos para a Produção de Hidrogênio de Baixa Emissão de Carbono (Rehidro);NBS ou NCM;S;S
+550023;550;CBS/IBS;Operações com hidrocarbonetos líquidos derivados de petróleo não combustíveis ou de gás natural, inclusive nafta;NBS ou NCM;S;S
+550024;550;CBS/IBS;Regime Tributário para Incentivo à Atividade Naval - Renaval (Art. 107, II);NBS ou NCM;S;S
+550025;550;CBS/IBS;Regime Tributário para Incentivo à Atividade Naval - Renaval (Art. 107, III);NBS ou NCM;S;S
+620001;620;CBS/IBS;Tributação monofásica sobre combustíveis;NCM;S;N
+620002;620;CBS/IBS;Tributação monofásica com responsabilidade pela retenção sobre combustíveis;NCM;S;N
+620003;620;CBS/IBS;Tributação monofásica com responsabilidade de retenção de tributos por terceiros;NCM;S;N
+620004;620;CBS/IBS;Tributação monofásica sobre mistura de EAC com gasolina A em percentual superior ao obrigatório;NCM;S;N
+620005;620;CBS/IBS;Tributação monofásica sobre mistura de EAC com gasolina A em percentual inferior ao obrigatório;NCM;S;N
+620006;620;CBS/IBS;Tributação monofásica sobre combustíveis cobrada anteriormente;NCM;S;N
+620007;620;CBS/IBS;Perecimento, deteriorização, roubo, furto ou extravio no regime monofásico;NCM;S;N
+800001;800;CBS/IBS;Fusão, cisão ou incorporação;NBS ou NCM;S;S
+800002;800;CBS/IBS;Transferência de crédito do associado, inclusive as cooperativas singulares;NBS ou NCM;S;S
+811001;811;CBS/IBS;Anulação de Crédito por Saídas Imunes/Isentas;NBS ou NCM;S;S
+811002;811;CBS/IBS;Débitos de notas fiscais não processadas na apuração;NBS ou NCM;S;S
+811003;811;CBS/IBS;Desenquadramento do Simples Nacional;NBS ou NCM;S;S
+820001;820;CBS/IBS;Documento com informações de fornecimento de serviços de planos de assistência à saúde elencados no art. 234 da Lei Complementar nº214, de 2025;NBS;N;S
+820002;820;CBS/IBS;Documento com informações de fornecimento de serviços de planos de assistência funerária;NBS;N;S
+820003;820;CBS/IBS;Documento com informações de fornecimento de serviços de planos de assistência à saúde de animais domésticos;NBS;N;S
+820004;820;CBS/IBS;Documento com informações de prestação de serviços de consursos de prognósticos;NBS;N;S
+820006;820;CBS/IBS;Documento com informações de fornecimento de serviços de exploração de via;NBS;N;S
+820007;820;CBS/IBS;Documento com informações de fornecimento de serviços financeiros;NBS;N;S
+820008;820;CBS/IBS;Documento com informações de fornecimento de serviço continuado, mas com tributação realizada em fatura anterior;NBS ou NCM;S;S
+820009;820;CBS/IBS;Cobrança relativa a fornecimentos declarados em outro documento;NBS ou NCM;S;S
+830001;830;CBS/IBS;Documento com exclusão da BC da CBS e do IBS de energia elétrica fornecida pela distribuidora à UC;NCM;S;N

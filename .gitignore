@@ -1,0 +1,13 @@
+# Repositórios da Receita: clonados pelo setup.ps1, não versionados aqui
+vendor/
+
+# Ferramentas portáteis (JDK, Go) e binários compilados
+tools/
+bin/
+
+# Execução local
+logs/
+setup.log
+.pids
+*.db
+node_modules/

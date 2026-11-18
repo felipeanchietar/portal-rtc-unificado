@@ -1,0 +1,191 @@
+﻿CST;Descrição CST;cClassTrib;Tributo;Descrição cClassTrib;Tem anexo NCM;Tem anexo NBS
+000;Tributação integral;000001;CBS/IBS;Situações tributadas integralmente pelo IBS e CBS.;N;N
+000;Tributado com Imposto Seletivo;000001;IS;Primeiro fornecimento a qualquer título de bem;S;S
+000;Tributação integral;000002;CBS/IBS;Exploração de via;N;N
+000;Tributado com Imposto Seletivo;000002;IS;Arrematação em leilão público;S;S
+000;Tributação integral;000003;CBS/IBS;Regime automotivo - projetos incentivados (art. 311);N;N
+000;Tributado com Imposto Seletivo;000003;IS;Transferência não onerosa de bem produzido;S;N
+000;Tributação integral;000004;CBS/IBS;Regime automotivo - projetos incentivados (art. 312);N;N
+000;Tributado com Imposto Seletivo;000004;IS;Incorporação do bem ao ativo imobilizado pelo fabricante;S;N
+000;Tributação integral;000005;CBS/IBS;Operação com EAC destinado à mistura com gasolina A, mas com saída do biocombustível com destinação diversa;N;N
+000;Tributado com Imposto Seletivo;000005;IS;Consumo do bem pelo fabricante;S;N
+000;Tributado com Imposto Seletivo;000006;IS;Venda direta pelo fabricante ao consumidor final;S;N
+000;Tributado com Imposto Seletivo;000007;IS;Venda de produto enviado para terceiro para processamento/industrialização;S;N
+000;Tributado com Imposto Seletivo;000008;IS;Venda efetiva de mercadoria remetida para venda fora do estabelecimento;S;N
+000;Tributado com Imposto Seletivo;000009;IS;Importação de bens e serviços;S;S
+000;Tributado com Imposto Seletivo;000010;IS;Primeiro fornecimento de bem mineral (venda no mercado interno ou exportação);S;N
+010;Tributação com alíquotas uniformes;010001;CBS/IBS;Operações do FGTS não realizadas pela Caixa Econômica Federal;N;N
+010;Tributação com alíquotas uniformes;010002;CBS/IBS;Operações do serviço financeiro;N;N
+011;Tributação com alíquotas uniformes reduzidas;011001;CBS/IBS;Planos de assistência funerária.;N;N
+011;Tributação com alíquotas uniformes reduzidas;011002;CBS/IBS;Planos de assistência à saúde;N;N
+011;Tributação com alíquotas uniformes reduzidas;011003;CBS/IBS;Intermediação de planos de assistência à saúde;N;N
+011;Tributação com alíquotas uniformes reduzidas;011004;CBS/IBS;Concursos e prognósticos;N;N
+011;Tributação com alíquotas uniformes reduzidas;011005;CBS/IBS;Planos de assistência à saúde de animais domésticos;N;N
+100;Imunidade;100001;IS;Exportações de bens e serviços;S;S
+200;Alíquota reduzida;200001;CBS/IBS;Serviços de transporte de bens até as zonas de processamento de exportação e bens exportados a partir das zonas de processamento de exportação;N;N
+200;Não ocorrência do Fato Gerador;200001;IS;Remessa para filial/depósito fechado;S;N
+200;Alíquota reduzida;200002;CBS/IBS;Fornecimento ou importação para produtor rural não contribuinte ou TAC;N;N
+200;Não ocorrência do Fato Gerador;200002;IS;Remessa para terceiro para processamento e industrialização;S;N
+200;Alíquota reduzida;200003;CBS/IBS;Vendas de produtos destinados à alimentação humana (Anexo I);S;N
+200;Não ocorrência do Fato Gerador;200003;IS;Remessa para adquirente por conta e ordem do fabricante;S;N
+200;Alíquota reduzida;200004;CBS/IBS;Fornecimento de dispositivos médicos (Anexo XII);S;N
+200;Não ocorrência do Fato Gerador;200004;IS;Remessa para venda fora do estabelecimento;S;N
+200;Alíquota reduzida;200005;CBS/IBS;Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV);S;N
+200;Não ocorrência do Fato Gerador;200005;IS;Retorno de mercadoria enviada para processamento/industrialização;S;N
+200;Alíquota reduzida;200006;CBS/IBS;Situação de emergência de saúde pública reconhecida pelo Poder público;N;N
+200;Não ocorrência do Fato Gerador;200006;IS;Retorno de remessa enviada para venda fora do estabelecimento;S;N
+200;Alíquota reduzida;200007;CBS/IBS;Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo XIII);S;N
+200;Não ocorrência do Fato Gerador;200007;IS;Venda de bem ou serviço tributado pelo IS em operação anterior;S;S
+200;Alíquota reduzida;200008;CBS/IBS;Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V);S;N
+200;Não ocorrência do Fato Gerador;200008;IS;Venda em embalagem não primária (não embalada para consumo imediato) de bebidas e fumo;S;N
+200;Alíquota reduzida;200009;CBS/IBS;Fornecimento dos medicamentos registrados na Anvisa;N;N
+200;Alíquota reduzida;200010;CBS/IBS;Fornecimento dos medicamentos registrados na Anvisa, adquiridos por órgãos da administração pública;N;N
+200;Alíquota reduzida;200011;CBS/IBS;Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI);S;N
+200;Alíquota reduzida;200012;CBS/IBS;Situação de emergência de saúde pública reconhecida pelo Poder público;N;N
+200;Alíquota reduzida;200013;CBS/IBS;Fornecimento de tampões higiênicos, absorventes higiênicos internos ou externos;N;N
+200;Alíquota reduzida;200014;CBS/IBS;Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV);S;N
+200;Alíquota reduzida;200015;CBS/IBS;Venda de automóveis de passageiros de fabricação nacional adquiridos por motoristas profissionais ou pessoas com deficiência;N;N
+200;Alíquota reduzida;200016;CBS/IBS;Prestação de serviços de pesquisa e desenvolvimento por Instituição Científica, Tecnológica e de Inovação (ICT);N;N
+200;Alíquota reduzida;200017;CBS/IBS;Operações relacionadas ao FGTS;N;N
+200;Alíquota reduzida;200018;CBS/IBS;Operações de resseguro e retrocessão;N;N
+200;Alíquota reduzida;200019;CBS/IBS;Importador dos serviços financeiros contribuinte;N;N
+200;Alíquota reduzida;200020;CBS/IBS;Operação praticada por sociedades cooperativas optantes por regime específico do IBS e CBS;N;N
+200;Alíquota reduzida;200021;CBS/IBS;Serviços de transporte público coletivo de passageiros ferroviário e hidroviário;N;N
+200;Alíquota reduzida;200022;CBS/IBS;Operação originada fora da ZFM que destine bem material industrializado a contribuinte estabelecido na ZFM;N;N
+200;Alíquota reduzida;200023;CBS/IBS;Operação realizada por indústria incentivada que destine bem material intermediário para outra indústria incentivada na ZFM;N;N
+200;Alíquota reduzida;200024;CBS/IBS;Operação originada fora das Áreas de Livre Comércio destinadas a contribuinte estabelecido nas Áreas de Livre Comércio;N;N
+200;Alíquota reduzida;200025;CBS/IBS;Fornecimento dos serviços de educação relacionados ao Programa Universidade para Todos (Prouni);N;N
+200;Alíquota reduzida;200026;CBS/IBS;Locação de imóveis localizados nas zonas reabilitadas;N;N
+200;Alíquota reduzida;200027;CBS/IBS;Operações de locação, cessão onerosa e arrendamento de bens imóveis;N;N
+200;Alíquota reduzida;200028;CBS/IBS;Fornecimento dos serviços de educação (Anexo II);N;S
+200;Alíquota reduzida;200029;CBS/IBS;Fornecimento dos serviços de saúde humana (Anexo III);N;S
+200;Alíquota reduzida;200030;CBS/IBS;Venda dos dispositivos médicos (Anexo IV);S;N
+200;Alíquota reduzida;200031;CBS/IBS;Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V);S;N
+200;Alíquota reduzida;200032;CBS/IBS;Fornecimento dos medicamentos registrados na Anvisa ou produzidos por farmácias de manipulação, ressalvados os medicamentos sujeitos à alíquota zero;N;N
+200;Alíquota reduzida;200033;CBS/IBS;Fornecimento das composições para nutrição enteral e parenteral (Anexo VI);S;N
+200;Alíquota reduzida;200034;CBS/IBS;Fornecimento dos alimentos destinados ao consumo humano (Anexo VII);S;N
+200;Alíquota reduzida;200035;CBS/IBS;Fornecimento dos produtos de higiene pessoal e limpeza (Anexo VIII);S;N
+200;Alíquota reduzida;200036;CBS/IBS;Fornecimento de produtos agropecuários, aquícolas, pesqueiros, florestais e extrativistas vegetais in natura;N;N
+200;Alíquota reduzida;200037;CBS/IBS;Fornecimento de serviços ambientais de conservação ou recuperação da vegetação nativa;N;N
+200;Alíquota reduzida;200038;CBS/IBS;Fornecimento dos insumos agropecuários e aquícolas (Anexo IX);S;S
+200;Alíquota reduzida;200039;CBS/IBS;Fornecimento dos bens e serviços relacionados com produções nacionais artísticas, culturais, de eventos, jornalísticas e audiovisuais (Anexo X);S;S
+200;Alíquota reduzida;200040;CBS/IBS;Fornecimento de serviços de comunicação institucional à administração pública;N;N
+200;Alíquota reduzida;200041;CBS/IBS;Fornecimento de serviço de educação desportiva (art. 141. I);N;N
+200;Alíquota reduzida;200042;CBS/IBS;Fornecimento de serviço de gestão e exploração do desporto (art. 141. II);N;N
+200;Alíquota reduzida;200043;CBS/IBS;Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI);S;S
+200;Alíquota reduzida;200044;CBS/IBS;Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI);S;S
+200;Alíquota reduzida;200045;CBS/IBS;Operações relacionadas a projetos de reabilitação urbana de zonas históricas e de áreas críticas de recuperação e reconversão urbanística;N;N
+200;Alíquota reduzida;200046;CBS/IBS;Operações com bens imóveis;N;N
+200;Alíquota reduzida;200047;CBS/IBS;Bares e Restaurantes;N;N
+200;Alíquota reduzida;200048;CBS/IBS;Hotelaria, Parques de Diversão e Parques Temáticos;N;N
+200;Alíquota reduzida;200049;CBS/IBS;Transporte coletivo de passageiros rodoviário, ferroviário e hidroviário;N;N
+200;Alíquota reduzida;200050;CBS/IBS;Serviços de transporte aéreo regional coletivo de passageiros ou de carga;N;N
+200;Alíquota reduzida;200051;CBS/IBS;Agências de Turismo;N;N
+200;Alíquota reduzida;200052;CBS/IBS;Prestação de serviços de profissões intelectuais;N;N
+200;Alíquota reduzida;200053;CBS/IBS;Fornecimento de medicamentos registrados na Anvisa, quando  classificados como soros ou vacinas;N;N
+200;Alíquota reduzida;200054;CBS/IBS;Fornecimento de bem material pela cooperativa de produção agropecuária a associado não sujeito ao regime regular do IBS e da CBS;N;N
+221;Alíquota fixa proporcional;221001;CBS/IBS;Locação, cessão onerosa ou arrendamento de bem imóvel com alíquota sobre a receita bruta;N;N
+221;Alíquota fixa proporcional;221002;CBS/IBS;Incorporação imobiliária submetida ao regime especial de tributação;N;N
+221;Alíquota fixa proporcional;221003;CBS/IBS;Incorporação imobiliária submetida ao regime especial de tributação;N;N
+221;Alíquota fixa proporcional;221004;CBS/IBS;Alienação de imóvel decorrente de parcelamento do solo;N;N
+222;Redução de Base de Cálculo;222001;CBS/IBS;Transporte internacional de passageiros, caso os trechos de ida e volta sejam vendidos em conjunto;N;N
+300;Devolução;300001;IS;Devolução de bens com documento fiscal emitido pelo adquirente;S;N
+300;Devolução;300002;IS;Devolução de bens com documento fiscal emitido pelo fornecedor;S;N
+400;Isenção;400001;CBS/IBS;Fornecimento de serviços de transporte público coletivo de passageiros rodoviário e metroviário;N;N
+400;Suspensão;400001;IS;Fornecimento de bens com o fim específico de exportação;S;N
+400;Isenção;400002;CBS/IBS;Fornecimento de serviços de transporte público coletivo de passageiros rodoviário e metroviário com medição por quilômetro rodado;N;N
+410;Imunidade e não incidência;410001;CBS/IBS;Fornecimento de bonificações quando constem no documento fiscal e que não dependam de evento posterior;N;N
+410;Imunidade e não incidência;410002;CBS/IBS;Transferências entre estabelecimentos pertencentes ao mesmo contribuinte;N;N
+410;Imunidade e não incidência;410003;CBS/IBS;Doações sem contraprestação em benefício do doador;N;N
+410;Imunidade e não incidência;410004;CBS/IBS;Exportações de bens e serviços;N;N
+410;Imunidade e não incidência;410005;CBS/IBS;Fornecimentos realizados pela União, pelos Estados, pelo Distrito Federal e pelos Municípios;N;N
+410;Imunidade e não incidência;410006;CBS/IBS;Fornecimentos realizados por entidades religiosas e templos de qualquer culto;N;N
+410;Imunidade e não incidência;410007;CBS/IBS;Fornecimentos realizados por partidos políticos, entidades sindicais e instituições de educação e de assistência social;N;N
+410;Imunidade e não incidência;410008;CBS/IBS;Fornecimentos de livros, jornais, periódicos e do papel destinado a sua impressão;N;N
+410;Imunidade e não incidência;410009;CBS/IBS;Fornecimentos de fonogramas e videofonogramas musicais produzidos no Brasil;N;N
+410;Imunidade e não incidência;410010;CBS/IBS;Fornecimentos de serviço de comunicação nas modalidades de radiodifusão sonora e de sons e imagens de recepção livre e gratuita;N;N
+410;Imunidade e não incidência;410011;CBS/IBS;Fornecimentos de ouro, quando definido em lei como ativo financeiro ou instrumento cambial;N;N
+410;Imunidade e não incidência;410012;CBS/IBS;Fornecimento de condomínio edilício não optante pelo regime regular;N;N
+410;Imunidade e não incidência;410013;CBS/IBS;Exportações de combustíveis;N;N
+410;Imunidade e não incidência;410014;CBS/IBS;Fornecimento de produtor rural não contribuinte;N;N
+410;Imunidade e não incidência;410015;CBS/IBS;Fornecimento por transportador autônomo não contribuinte;N;N
+410;Imunidade e não incidência;410016;CBS/IBS;Fornecimento ou aquisição de resíduos sólidos;N;N
+410;Imunidade e não incidência;410017;CBS/IBS;Aquisição de bem móvel com crédito presumido sob condição de revenda realizada;N;N
+410;Imunidade e não incidência;410018;CBS/IBS;Operações relacionadas aos fundos garantidores e executores de políticas públicas;N;N
+410;Imunidade e não incidência;410019;CBS/IBS;Exclusão da gorjeta na base de cálculo no fornecimento de alimentação;N;N
+410;Imunidade e não incidência;410020;CBS/IBS;Exclusão do valor de intermediação na base de cálculo no fornecimento de alimentação;N;N
+410;Imunidade e não incidência;410021;CBS/IBS;Contribuição de que trata o art. 149-A da Constituição Federal;N;N
+410;Imunidade e não incidência;410022;CBS/IBS;Consolidação da propriedade do bem pelo credor;N;N
+410;Imunidade e não incidência;410023;CBS/IBS;Alienação de bens móveis ou imóveis que tenham sido objeto de garantia em que o prestador da garantia não seja contribuinte;N;N
+410;Imunidade e não incidência;410024;CBS/IBS;Consolidação da propriedade do bem pelo grupo de consórcio;N;N
+410;Imunidade e não incidência;410025;CBS/IBS;Alienação de bem que tenha sido objeto de garantia em que o prestador da garantia não seja contribuinte;N;N
+410;Imunidade e não incidência;410026;CBS/IBS;Doação com anulação de crédito;N;N
+410;Imunidade e não incidência;410027;CBS/IBS;Exportação de serviço ou de bem imaterial;N;N
+410;Imunidade e não incidência;410028;CBS/IBS;Operações com bens imóveis realizadas por pessoas físicas não consideradas contribuintes;N;N
+410;Imunidade e não incidência;410029;CBS/IBS;Operações acobertadas somente pelo ICMS;N;N
+410;Imunidade e não incidência;410030;CBS/IBS;Estorno de crédito por perecimento, deteriorização, roubo, furto ou extravio.;N;N
+410;Imunidade e não incidência;410031;CBS/IBS;Fornecimento em período anterior ao início de vigência de incidências de CBS e IBS;N;N
+410;Imunidade e não incidência;410032;CBS/IBS;Tributos incidentes na operação que não integram a base de cálculo do IBS e da CBS;N;N
+410;Imunidade e não incidência;410033;CBS/IBS;Operações de Fundos de Investimento Imobiliário (FII) e Fundos de Investimento nas Cadeias Produtivas do Agronegócio (Fiagro);N;N
+410;Imunidade e não incidência;410034;CBS/IBS;Operações de fundos de investimento;N;N
+410;Imunidade e não incidência;410035;CBS/IBS;Fornecimento realizado por nanoempreendedor;N;N
+410;Imunidade e não incidência;410036;CBS/IBS;Descontos incondicionais;N;N
+410;Imunidade e não incidência;410037;CBS/IBS;Importação os bens materiais sem incidência de IBS e CBS;N;N
+410;Imunidade e não incidência;410999;CBS/IBS;Operações não onerosas sem previsão de tributação, não especificadas anteriormente;N;N
+500;Alíquota Zero;500001;IS;Venda de gás natural destinado à utilização como insumo em processo industrial e como combustível para fins de transporte, realizada por produtor extrativista;S;N
+500;Alíquota Zero;500003;IS;Venda de gás natural destinado à utilização como insumo em processo industrial e como combustível para fins de transporte, realizada por importador;S;N
+500;Alíquota Zero;500004;IS;Importação de gás natural destinado à utilização como insumo em processo industrial e como combustível para fins de transporte, realizada por importador distribuidor ou varejista;S;N
+500;Alíquota Zero;500007;IS;Venda de veículo nacional com alíquota zero para motorista de táxi com regime diferenciado reconhecido;S;N
+500;Alíquota Zero;500008;IS;Venda de veículo nacional com alíquota zero para pessoa com deficiência ou transtorno do espectro autista;S;N
+510;Diferimento;510001;CBS/IBS;Operações, sujeitas a diferimento, com energia elétrica, relativas à importação, geração, comercialização, distribuição e transmissão;N;N
+515;Diferimento com redução de alíquota;515001;CBS/IBS;Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX);S;S
+550;Suspensão;550001;CBS/IBS;Exportações de bens materiais;N;N
+550;Suspensão;550002;CBS/IBS;Regime de Trânsito;N;N
+550;Suspensão;550003;CBS/IBS;Regimes de Depósito (art. 85);N;N
+550;Suspensão;550004;CBS/IBS;Regimes de Depósito (art. 87);N;N
+550;Suspensão;550005;CBS/IBS;Regimes de Depósito (art. 87, Parágrafo único);N;N
+550;Suspensão;550006;CBS/IBS;Regimes de Permanência Temporária;N;N
+550;Suspensão;550007;CBS/IBS;Regimes de Aperfeiçoamento;N;N
+550;Suspensão;550008;CBS/IBS;Importação de bens para o Regime de Repetro-Temporário;N;N
+550;Suspensão;550009;CBS/IBS;GNL-Temporário;N;N
+550;Suspensão;550010;CBS/IBS;Repetro-Permanente;N;N
+550;Suspensão;550011;CBS/IBS;Repetro-Industrialização;N;N
+550;Suspensão;550012;CBS/IBS;Repetro-Nacional;N;N
+550;Suspensão;550013;CBS/IBS;Repetro-Entreposto;N;N
+550;Suspensão;550014;CBS/IBS;Zona de Processamento de Exportação;N;N
+550;Suspensão;550015;CBS/IBS;Regime Tributário para Incentivo à Modernização e à Ampliação da Estrutura Portuária;N;N
+550;Suspensão;550016;CBS/IBS;Regime Especial de Incentivos para o Desenvolvimento da Infraestrutura;N;N
+550;Suspensão;550017;CBS/IBS;Regime Tributário para Incentivo à Atividade Naval - Renaval (Art. 107, I);N;N
+550;Suspensão;550018;CBS/IBS;Desoneração da aquisição de bens de capital;N;N
+550;Suspensão;550019;CBS/IBS;Importação de bem material por indústria incentivada para utilização na ZFM;N;N
+550;Suspensão;550020;CBS/IBS;Áreas de livre comércio;N;N
+550;Suspensão;550021;CBS/IBS;Industrialização destinada a exportações;N;N
+550;Suspensão;550022;CBS/IBS;Regime Especial de Incentivos para a Produção de Hidrogênio de Baixa Emissão de Carbono (Rehidro);N;N
+550;Suspensão;550023;CBS/IBS;Operações com hidrocarbonetos líquidos derivados de petróleo não combustíveis ou de gás natural, inclusive nafta;N;N
+550;Suspensão;550024;CBS/IBS;Regime Tributário para Incentivo à Atividade Naval - Renaval (Art. 107, II);N;N
+550;Suspensão;550025;CBS/IBS;Regime Tributário para Incentivo à Atividade Naval - Renaval (Art. 107, III);N;N
+600;Isenção;600001;IS;Bagagens de viajantes e de tripulantes submetidas ao regime de tributação especial;S;N
+600;Isenção;600002;IS;Remessas internacionais submetidas ao regime de tributação simplificada;S;N
+620;Tributação monofásica;620001;CBS/IBS;Tributação monofásica sobre combustíveis;N;N
+620;Tributação monofásica;620002;CBS/IBS;Tributação monofásica com responsabilidade pela retenção sobre combustíveis;N;N
+620;Tributação monofásica;620003;CBS/IBS;Tributação monofásica com responsabilidade de retenção de tributos por terceiros;N;N
+620;Tributação monofásica;620004;CBS/IBS;Tributação monofásica sobre mistura de EAC com gasolina A em percentual superior ao obrigatório;N;N
+620;Tributação monofásica;620005;CBS/IBS;Tributação monofásica sobre mistura de EAC com gasolina A em percentual inferior ao obrigatório;N;N
+620;Tributação monofásica;620006;CBS/IBS;Tributação monofásica sobre combustíveis cobrada anteriormente;N;N
+620;Tributação monofásica;620007;CBS/IBS;Perecimento, deteriorização, roubo, furto ou extravio no regime monofásico;N;N
+800;Transferência de crédito;800001;CBS/IBS;Fusão, cisão ou incorporação;N;N
+800;Transferência de crédito;800002;CBS/IBS;Transferência de crédito do associado, inclusive as cooperativas singulares;N;N
+810;Ajustes de IBS na ZFM;810001;CBS/IBS;Crédito presumido de IBS sobre o valor apurado nos fornecimentos a partir da ZFM;N;N
+811;Ajustes;811001;CBS/IBS;Anulação de Crédito por Saídas Imunes/Isentas;N;N
+811;Ajustes;811002;CBS/IBS;Débitos de notas fiscais não processadas na apuração;N;N
+811;Ajustes;811003;CBS/IBS;Desenquadramento do Simples Nacional;N;N
+820;Tributação em documento específico;820001;CBS/IBS;Documento com informações de fornecimento de serviços de planos de assistência à saúde elencados no art. 234 da Lei Complementar nº214, de 2025;N;N
+820;Tributação em documento específico;820002;CBS/IBS;Documento com informações de fornecimento de serviços de planos de assistência funerária;N;N
+820;Tributação em documento específico;820003;CBS/IBS;Documento com informações de fornecimento de serviços de planos de assistência à saúde de animais domésticos;N;N
+820;Tributação em documento específico;820004;CBS/IBS;Documento com informações de prestação de serviços de consursos de prognósticos;N;N
+820;Tributação em documento específico;820005;CBS/IBS;Documento com informações de alienação de bens imóveis;N;N
+820;Tributação em documento específico;820006;CBS/IBS;Documento com informações de fornecimento de serviços de exploração de via;N;N
+820;Tributação em documento específico;820007;CBS/IBS;Documento com informações de fornecimento de serviços financeiros;N;N
+820;Tributação em documento específico;820008;CBS/IBS;Documento com informações de fornecimento de serviço continuado, mas com tributação realizada em fatura anterior;N;N
+820;Tributação em documento específico;820009;CBS/IBS;Cobrança relativa a fornecimentos declarados em outro documento;N;N
+830;Exclusão de base de cálculo;830001;CBS/IBS;Documento com exclusão da BC da CBS e do IBS de energia elétrica fornecida pela distribuidora à UC;N;N

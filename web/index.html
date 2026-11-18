@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portal RTC Unificado</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="logo">RTC</span>
+    <div>
+      <h1>Portal RTC Unificado</h1>
+      <p>Regime Regular · Simples Nacional · DANFSe — Reforma Tributária do Consumo (LC 214/2025)</p>
+    </div>
+  </div>
+  <div id="status-pills" class="pills"></div>
+</header>
+
+<nav class="tabs" role="tablist">
+  <button class="tab active" data-tab="painel">Painel</button>
+  <button class="tab" data-tab="calculo">Cálculo CBS/IBS</button>
+  <button class="tab" data-tab="danfse">DANFSe (PDF)</button>
+  <button class="tab" data-tab="reversa">NCM/NBS/CST → cClassTrib</button>
+  <button class="tab" data-tab="consultas">Consultas</button>
+</nav>
+
+<main>
+<!-- ================= PAINEL ================= -->
+<section id="painel" class="panel active">
+  <div class="grid3">
+    <article class="card svc" data-svc="regular">
+      <h2>Regime Regular</h2>
+      <p class="muted">Java · Spring Boot · porta 8080</p>
+      <p>Calcula <b>CBS, IBS (UF + Município) e Imposto Seletivo</b> por item da operação, para empresas do regime geral. Também gera e valida o XML dos grupos de tributação (NF-e, NFC-e, CT-e, BP-e, NF3e; NFS-e só validação), calcula a base unificada e expõe as tabelas oficiais (CST, cClassTrib, NCM, NBS, alíquotas).</p>
+      <div class="state">—</div>
+    </article>
+    <article class="card svc" data-svc="simples">
+      <h2>Simples Nacional</h2>
+      <p class="muted">Java · Spring Boot · porta 8082</p>
+      <p>Calcula <b>CBS e IBS para optantes do Simples</b> (CRT 1, 2, ou CRT 3 com apuração “por fora”), conforme NT 2026.005: receita bruta do item, tpRBSN, alíquotas efetivas pIBSSN/pCBSSN, compra governamental e catálogo de atividades (cAtivSN).</p>
+      <div class="state">—</div>
+    </article>
+    <article class="card svc" data-svc="danfse">
+      <h2>Gerador DANFSe</h2>
+      <p class="muted">Go · Echo · porta 8081</p>
+      <p>Recebe o <b>XML da NFS-e nacional</b> e devolve o <b>DANFSe em PDF</b> (layout da NT 008 SE/CGNFS-e), com marca d'água de substituída/cancelada e canhoto opcional.</p>
+      <div class="state">—</div>
+    </article>
+  </div>
+
+  <article class="card">
+    <h2>Como o portal junta as três ferramentas</h2>
+    <ol class="flow">
+      <li><b>Um só formulário de cálculo.</b> Você informa o CRT do emitente e o portal envia para a calculadora certa: CRT 3 (regime regular) → Regime Regular; CRT 1/2, ou CRT 3 com apuração por fora → Simples Nacional.</li>
+      <li><b>Do cálculo ao XML.</b> No regime regular, o resultado vira o grupo de tributação XML (NF-e, NFC-e…) e é validado contra o XSD oficial, sem sair da tela.</li>
+      <li><b>Da NFS-e ao PDF.</b> Cole o XML da NFS-e: o portal valida no XSD da calculadora e gera o DANFSe em PDF no gerador Go.</li>
+      <li><b>Consultas num lugar só.</b> cClassTrib, NCM, NBS, alíquotas de referência e atividades do Simples.</li>
+    </ol>
+    <p class="muted small">Todas as chamadas passam pelo gateway local (<code>/svc/regular</code>, <code>/svc/simples</code>, <code>/svc/danfse</code>), então nada sai da sua máquina e não há problema de CORS.</p>
+  </article>
+</section>
+
+<!-- ================= CÁLCULO ================= -->
+<section id="calculo" class="panel">
+  <article class="card">
+    <h2>Dados da operação</h2>
+    <div class="form-grid">
+      <label>CRT do emitente
+        <select id="crt">
+          <option value="3">3 — Regime Normal</option>
+          <option value="1">1 — Simples Nacional</option>
+          <option value="2">2 — Simples (excesso de sublimite)</option>
+        </select>
+      </label>
+      <label id="lbl-tpregime" class="hidden">Apuração IBS/CBS
+        <select id="tpRegime">
+          <option value="1">1 — Regime regular</option>
+          <option value="2">2 — Por fora (Simples)</option>
+        </select>
+      </label>
+      <label>Data do fato gerador <input id="data" type="date" value="2027-03-10"></label>
+      <label class="only-regular">Município (IBGE) <input id="municipio" value="4314902"></label>
+      <label class="only-regular">UF <input id="uf" value="RS" maxlength="2"></label>
+      <label class="only-simples hidden">Tipo de documento (tpDoc)
+        <select id="tpDoc"><option value="55">55 — NF-e</option><option value="65">65 — NFC-e</option></select>
+      </label>
+      <label class="only-simples hidden">Compra governamental (tpEnteGov)
+        <select id="tpEnteGov"><option value="">— não —</option><option value="1">1 — União</option><option value="2">2 — Estado</option><option value="3">3 — DF</option><option value="4">4 — Município</option></select>
+      </label>
+    </div>
+    <p id="rota" class="route"></p>
+  </article>
+
+  <article class="card">
+    <div class="row-between">
+      <h2>Itens</h2>
+      <div class="btns">
+        <button id="btn-exemplo" class="ghost">Carregar exemplo</button>
+        <button id="btn-formatar" class="ghost">Formatar JSON</button>
+      </div>
+    </div>
+    <p class="muted small" id="itens-help"></p>
+    <textarea id="itens" spellcheck="false" rows="16"></textarea>
+    <div class="btns">
+      <button id="btn-calcular" class="primary">Calcular</button>
+      <button id="btn-xml" class="only-regular">Gerar XML do grupo</button>
+      <select id="tipoXml" class="only-regular"><option>nfe</option><option>nfce</option><option>cte</option><option>cte-simplificado</option><option>bpe</option><option>bpe-tm</option><option>nf3e</option></select>
+    </div>
+  </article>
+
+  <article class="card" id="resultado-card" hidden>
+    <div class="row-between"><h2>Resultado</h2><div class="btns" style="margin:0"><button id="btn-pdf-calc" class="ghost" hidden>Baixar PDF do cálculo</button><span id="res-badge" class="badge"></span></div></div>
+    <div id="warn" class="warn" hidden></div>
+    <div id="totais" class="kpis"></div>
+    <div class="table-wrap"><table id="res-tabela"></table></div>
+    <details><summary>JSON completo da resposta</summary><pre id="res-json"></pre></details>
+  </article>
+
+  <article class="card" id="xml-card" hidden>
+    <div class="row-between"><h2>XML do grupo de tributação</h2><span id="xml-badge" class="badge"></span></div>
+    <pre id="xml-out"></pre>
+    <div class="btns"><button id="btn-baixar-xml" class="ghost">Baixar XML</button></div>
+  </article>
+</section>
+
+<!-- ================= DANFSE ================= -->
+<section id="danfse" class="panel">
+  <article class="card">
+    <h2>XML da NFS-e nacional</h2>
+    <div class="form-grid">
+      <label>Arquivo XML <input type="file" id="nfse-file" accept=".xml,application/xml,text/xml"></label>
+      <label>Situação da nota
+        <select id="stc"><option value="0">0 — Válida</option><option value="1">1 — Substituída</option><option value="2">2 — Cancelada</option></select>
+      </label>
+      <label class="check"><input type="checkbox" id="canhoto" checked> Exibir canhoto</label>
+      <label class="check"><input type="checkbox" id="validar-xsd" checked> Validar no XSD antes (Regime Regular)</label>
+    </div>
+    <textarea id="nfse-xml" rows="12" spellcheck="false" placeholder="Cole aqui o XML completo da NFS-e (elemento raiz &lt;NFSe&gt;) ou escolha o arquivo acima"></textarea>
+    <div class="btns"><button id="btn-pdf" class="primary">Gerar DANFSe</button></div>
+    <div id="danfse-msg"></div>
+  </article>
+  <article class="card" id="pdf-card" hidden>
+    <div class="row-between"><h2>DANFSe</h2><a id="pdf-link" class="button ghost" download="danfse.pdf">Baixar PDF</a></div>
+    <iframe id="pdf-frame" title="DANFSe"></iframe>
+  </article>
+</section>
+
+<!-- ================= CONSULTA REVERSA ================= -->
+<section id="reversa" class="panel">
+  <article class="card">
+    <h2>Quais cClassTrib posso usar?</h2>
+    <p class="muted small">Informe um NCM, NBS ou CST e veja todas as classificações tributárias possíveis na data. A regra é a mesma que a calculadora oficial usa para aceitar ou recusar o vínculo: prefixo do anexo, exceções e vigência.</p>
+    <div class="form-grid">
+      <label>Partir de
+        <select id="r-tipo"><option value="ncm">NCM (8 dígitos)</option><option value="nbs">NBS (9 dígitos)</option><option value="cst">CST (3 dígitos)</option></select>
+      </label>
+      <label>Código <input id="r-codigo" placeholder="ex.: 22030000"></label>
+      <label>Data <input id="r-data" type="date"></label>
+    </div>
+    <div class="btns">
+      <button id="btn-reverso" class="primary">Listar cClassTrib</button>
+      <input id="r-filtro" placeholder="Filtrar resultado…" style="flex:1;min-width:160px">
+    </div>
+    <div id="r-out"></div>
+  </article>
+  <article class="card">
+    <h2>Listagem completa (CSV para Excel)</h2>
+    <p class="muted small">Todas as combinações vigentes na data acima.</p>
+    <div class="btns">
+      <a class="button" id="dl-ncm" href="#">NCM → cClassTrib</a>
+      <a class="button" id="dl-nbs" href="#">NBS → cClassTrib</a>
+      <a class="button" id="dl-cst" href="#">CST → cClassTrib</a>
+      <a class="button" id="dl-genericas" href="#">cClassTrib sem anexo (aceitam qualquer código)</a>
+    </div>
+  </article>
+</section>
+
+<!-- ================= CONSULTAS ================= -->
+<section id="consultas" class="panel">
+  <article class="card">
+    <h2>Consultas às tabelas oficiais</h2>
+    <div class="form-grid">
+      <label>Consulta
+        <select id="q-tipo">
+          <option value="cclass">cClassTrib (CBS/IBS)</option>
+          <option value="cst">CST de CBS/IBS</option>
+          <option value="ncm">NCM</option>
+          <option value="nbs">NBS</option>
+          <option value="aliq-uniao">Alíquota de referência — União</option>
+          <option value="aliq-uf">Alíquota de referência — UF</option>
+          <option value="aliq-mun">Alíquota de referência — Município</option>
+          <option value="fund">Fundamentações legais</option>
+          <option value="ativ">Atividades do Simples Nacional</option>
+          <option value="erro">Código de erro (REG-/VSN-)</option>
+        </select>
+      </label>
+      <label>Código <input id="q-codigo" placeholder="ex.: 200028"></label>
+      <label>Data <input id="q-data" type="date" value="2026-06-01"></label>
+    </div>
+    <p id="q-hint" class="muted small"></p>
+    <div class="btns"><button id="btn-consultar" class="primary">Consultar</button></div>
+    <div id="q-out"></div>
+  </article>
+</section>
+</main>
+
+<footer>Ferramentas oficiais: <a href="https://github.com/ReceitaFederal/calculadora-rtc-regime-regular">regime-regular</a> · <a href="https://github.com/ReceitaFederal/calculadora-rtc-simples-nacional">simples-nacional</a> · <a href="https://github.com/ReceitaFederal/calculadora-rtc-gerador-danfse">gerador-danfse</a>. Resultados simulados não substituem a apuração oficial.</footer>
+<script src="app.js"></script>
+</body>
+</html>
