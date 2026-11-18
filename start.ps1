@@ -1,4 +1,4 @@
-<#
+﻿<#
   Sobe os 3 servicos da Receita + o gateway/portal e abre o navegador.
     Regime Regular   -> http://localhost:8080/api   (Java)
     Simples Nacional -> http://localhost:8082/api   (Java)

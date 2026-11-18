@@ -69,6 +69,23 @@ Os logs ficam em `.\logs`. O Swagger original de cada serviço continua disponí
 - http://localhost:8082/api/swagger-ui.html
 - http://localhost:8081/api/swagger-ui
 
+## Versão portátil (sem instalar nada)
+
+Para usar em outras máquinas sem Git, Node ou Java:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\empacotar.ps1      # depois do setup.ps1
+```
+
+O comando gera `dist\portal-rtc-portatil-AAAA-MM-DD.zip`, com cerca de 250 MB compactado. O pacote traz:
+- um Java 21 reduzido com jlink;
+- o `node.exe`;
+- os 3 serviços já compilados;
+- o banco oficial;
+- os atalhos `Iniciar Portal RTC.bat` e `Parar Portal RTC.bat`.
+
+Na outra máquina, basta descompactar e dar dois cliques em **Iniciar Portal RTC**. Requisitos: Windows 10/11 x64 e cerca de 1 GB de RAM livre. O pacote tem mais de 100 MB, então distribua pelo GitHub Releases, Drive ou pendrive, e não pelo repositório.
+
 ## Observações
 
 - A partir de 2027, o regime regular exige `aliquotasNominais` em cada item, e o resultado sai como `CALCULO_SIMULADO`. Em 2026, as alíquotas vêm da base oficial e o campo é proibido.

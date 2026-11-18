@@ -11,3 +11,6 @@ setup.log
 .pids
 *.db
 node_modules/
+
+# Pacote portátil gerado pelo empacotar.ps1
+dist/

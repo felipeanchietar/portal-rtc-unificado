@@ -1,4 +1,4 @@
-<#
+﻿<#
   Prepara as 3 ferramentas da Receita para rodar juntas no Portal RTC Unificado.
 
   O que faz:

@@ -1,0 +1,43 @@
+PORTAL RTC UNIFICADO - VERSAO PORTATIL
+======================================
+
+Junta as 3 ferramentas da Receita Federal para a Reforma Tributaria do
+Consumo (LC 214/2025): Calculadora do Regime Regular, Calculadora do Simples
+Nacional e Gerador de DANFSe. Tambem traz a consulta reversa
+NCM/NBS/CST -> cClassTrib.
+
+NAO PRECISA INSTALAR NADA. Java e Node ja vem dentro desta pasta.
+
+COMO USAR
+---------
+1. Descompacte o .zip numa pasta em que voce possa gravar arquivos, como
+   Documentos ou a Area de Trabalho. Nao rode de dentro do .zip.
+2. De dois cliques em "Iniciar Portal RTC.bat".
+   Na primeira vez, o Windows pode mostrar "O Windows protegeu o computador".
+   Clique em "Mais informacoes" e depois em "Executar assim mesmo".
+   Se aparecer um aviso do Firewall, pode clicar em Cancelar. O portal so
+   funciona neste computador e nao precisa de acesso a rede.
+3. O navegador abre sozinho em http://localhost:8090. Os servicos levam de
+   20 a 60 segundos para subir.
+4. Para encerrar, de dois cliques em "Parar Portal RTC.bat".
+
+REQUISITOS
+----------
+- Windows 10 ou 11, 64 bits
+- Cerca de 1,5 GB de RAM livre enquanto o portal estiver aberto
+- Portas 8080, 8081, 8082 e 8090 livres
+
+PROBLEMAS
+---------
+- Se "algum servico falhou", veja os arquivos da pasta "logs".
+- Se aparecer "portas em uso", rode "Parar Portal RTC.bat" e tente de novo.
+
+VERSAO
+------
+Base de dados oficial gerada em: {{DATA_BASE}}
+Node embutido: {{NODE}}
+Para tabelas mais novas da Receita, gere um pacote novo a partir do projeto:
+https://github.com/felipeanchietar/portal-rtc-unificado
+
+Os resultados sao simulacoes baseadas nas ferramentas oficiais e nao
+substituem a apuracao. O PDF do calculo nao e documento fiscal.
